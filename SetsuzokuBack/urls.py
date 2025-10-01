@@ -20,5 +20,6 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('hola/', views.HolaView.as_view()),
     re_path('^.*$', views.PrincipalView.as_view()),
 ]
