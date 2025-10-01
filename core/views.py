@@ -8,7 +8,7 @@ class PrincipalView(View):
 
     def get(self, peticion):
         """
-        Renderiza el title.html <Main1> cuando se accede a la app vía URL, siempre y cuando la URL no coincida con la de otra vista.
+        Renderiza el title.html <Main2> cuando se accede a la app vía URL, siempre y cuando la URL no coincida con la de otra vista.
         """
 
         return render(peticion, 'index.html')
