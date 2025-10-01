@@ -8,7 +8,7 @@ class PrincipalView(View):
 
     def get(self, peticion):
         """
-        Renderiza el index.html <Conflicto malo> cuando se accede a la app vía URL, siempre y cuando la URL no coincida con la de otra vista.
+        Renderiza el index.html <Conflicto equis> cuando se accede a la app vía URL, siempre y cuando la URL no coincida con la de otra vista.
         """
 
         return render(peticion, 'index.html')
